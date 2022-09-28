@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="container">
+      <h1>Lista de Tarefas</h1>
+
+      <form>
+        <input type="text" class="input-text print">
+        <button class="botao print">Adicionar tarefa</button>
+      </form>
+
+      <ul class="tarefas"></ul>
+
+      <form class="priting print hide">
+        <input type="button" value="Imprimir" onClick="window.print()" />
+      </form>
+  </section>
+
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
